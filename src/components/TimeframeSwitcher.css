@@ -1,0 +1,33 @@
+.timeframe-switcher {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .timeframe-switcher button {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .timeframe-switcher button.active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .timeframe-switcher button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .timeframe-switcher {
+      flex-direction: column;
+    }
+    .timeframe-switcher button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
